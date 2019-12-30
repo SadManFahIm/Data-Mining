@@ -1,0 +1,44 @@
+@relation 'cereal-weka.filters.unsupervised.attribute.AddCluster-Wweka.clusterers.HierarchicalClusterer -N 16 -L SINGLE -P -A \"weka.core.EuclideanDistance -R first-last\"'
+
+@attribute 'cereal name' {'100\%_Bran','100\%_Natural_Bran',All-Bran,All-Bran_with_Extra_Fiber,Almond_Delight,Apple_Cinnamon_Cheerios,Apple_Jacks,Basic_4,Bran_Chex,Bran_Flakes,Cap_n_Crunch,Cheerios,Cinnamon_Toast_Crunch,Clusters,Cocoa_Puffs,Corn_Chex,Corn_Flakes,Corn_Pops,Count_Chocula,Cracklin_Oat_Bran,Cream_of_Wheat_(Quick),Crispix,Crispy_Wheat_&_Raisins,Double_Chex,Froot_Loops,Frosted_Flakes,Frosted_Mini-Wheats,'Fruit_&_Fibre_Dates,_Walnuts,_and_Oats',Fruitful_Bran,Fruity_Pebbles,Golden_Crisp,Golden_Grahams,Grape_Nuts_Flakes,Grape-Nuts,Great_Grains_Pecan,Honey_Graham_Ohs,Honey_Nut_Cheerios,Honey-comb,Just_Right_Crunchy__Nuggets,Just_Right_Fruit_&_Nut,Kix,Life,Lucky_Charms,Maypo,'Muesli_Raisins,_Dates,_&_Almonds','Muesli_Raisins,_Peaches,_&_Pecans',Mueslix_Crispy_Blend,Multi-Grain_Cheerios,Nut&Honey_Crunch,Nutri-Grain_Almond-Raisin,Nutri-grain_Wheat,Oatmeal_Raisin_Crisp,Post_Nat._Raisin_Bran,Product_19,Puffed_Rice,Puffed_Wheat,Quaker_Oat_Squares,Quaker_Oatmeal,Raisin_Bran,Raisin_Nut_Bran,Raisin_Squares,Rice_Chex,Rice_Krispies,Shredded_Wheat,Shredded_Wheat_n_Bran,Shredded_Wheat_spoon_size,Smacks,Special_K,Strawberry_Fruit_Wheats,Total_Corn_Flakes,Total_Raisin_Bran,Total_Whole_Grain,Triples,Trix,Wheat_Chex,Wheaties,Wheaties_Honey_Gold}
+@attribute calories numeric
+@attribute protein(g) numeric
+@attribute fat(g) numeric
+@attribute sodium(mg) numeric
+@attribute 'dietary fiber(g)' numeric
+@attribute 'complex carbohydrates(g)' numeric
+@attribute sugars(g) numeric
+@attribute 'display shelf' numeric
+@attribute potassium(mg) numeric
+@attribute cluster {cluster1,cluster2,cluster3,cluster4,cluster5,cluster6,cluster7,cluster8,cluster9,cluster10,cluster11,cluster12,cluster13,cluster14,cluster15,cluster16}
+
+@data
+Almond_Delight,110,2,2,200,1,14,8,3,-1,cluster4
+Basic_4,130,3,2,210,2,18,8,3,100,cluster4
+Bran_Flakes,90,3,0,210,5,13,5,3,190,cluster4
+Clusters,110,3,2,140,2,13,7,3,105,cluster4
+Cracklin_Oat_Bran,110,3,3,140,4,10,7,3,160,cluster4
+Crispix,110,2,0,220,1,21,3,3,30,cluster4
+Crispy_Wheat_&_Raisins,100,2,1,140,2,11,10,3,120,cluster4
+Double_Chex,100,2,0,190,1,18,5,3,80,cluster4
+'Fruit_&_Fibre_Dates,_Walnuts,_and_Oats',120,3,2,160,5,12,10,3,200,cluster4
+Fruitful_Bran,120,3,0,240,5,14,12,3,190,cluster4
+Grape_Nuts_Flakes,100,3,1,140,3,15,5,3,85,cluster4
+Grape-Nuts,110,3,0,170,3,17,3,3,90,cluster4
+Great_Grains_Pecan,120,3,3,75,3,13,4,3,100,cluster4
+Just_Right_Crunchy__Nuggets,110,2,1,170,1,17,6,3,60,cluster4
+Just_Right_Fruit_&_Nut,140,3,1,170,2,20,9,3,95,cluster4
+'Muesli_Raisins,_Dates,_&_Almonds',150,4,3,95,3,16,11,3,170,cluster4
+'Muesli_Raisins,_Peaches,_&_Pecans',150,4,3,150,3,16,11,3,170,cluster4
+Mueslix_Crispy_Blend,160,3,2,150,3,17,13,3,160,cluster4
+Nutri-Grain_Almond-Raisin,140,3,2,220,3,21,7,3,130,cluster4
+Nutri-grain_Wheat,90,3,0,170,3,18,2,3,90,cluster4
+Oatmeal_Raisin_Crisp,130,3,2,170,1.5,13.5,10,3,120,cluster4
+Post_Nat._Raisin_Bran,120,3,1,200,6,11,14,3,260,cluster4
+Product_19,100,3,0,320,1,20,3,3,45,cluster4
+Quaker_Oat_Squares,100,4,1,135,2,14,6,3,110,cluster4
+Raisin_Nut_Bran,100,3,2,140,2.5,10.5,8,3,140,cluster4
+Total_Corn_Flakes,110,2,1,200,0,21,3,3,35,cluster4
+Total_Raisin_Bran,140,3,1,190,4,15,14,3,230,cluster4
+Total_Whole_Grain,100,3,1,200,3,16,3,3,110,cluster4
+Triples,110,2,1,250,0,21,3,3,60,cluster4

@@ -1,0 +1,30 @@
+@relation 'cereal-weka.filters.unsupervised.attribute.AddCluster-Wweka.clusterers.HierarchicalClusterer -N 16 -L SINGLE -P -A \"weka.core.EuclideanDistance -R first-last\"'
+
+@attribute 'cereal name' {'100\%_Bran','100\%_Natural_Bran',All-Bran,All-Bran_with_Extra_Fiber,Almond_Delight,Apple_Cinnamon_Cheerios,Apple_Jacks,Basic_4,Bran_Chex,Bran_Flakes,Cap_n_Crunch,Cheerios,Cinnamon_Toast_Crunch,Clusters,Cocoa_Puffs,Corn_Chex,Corn_Flakes,Corn_Pops,Count_Chocula,Cracklin_Oat_Bran,Cream_of_Wheat_(Quick),Crispix,Crispy_Wheat_&_Raisins,Double_Chex,Froot_Loops,Frosted_Flakes,Frosted_Mini-Wheats,'Fruit_&_Fibre_Dates,_Walnuts,_and_Oats',Fruitful_Bran,Fruity_Pebbles,Golden_Crisp,Golden_Grahams,Grape_Nuts_Flakes,Grape-Nuts,Great_Grains_Pecan,Honey_Graham_Ohs,Honey_Nut_Cheerios,Honey-comb,Just_Right_Crunchy__Nuggets,Just_Right_Fruit_&_Nut,Kix,Life,Lucky_Charms,Maypo,'Muesli_Raisins,_Dates,_&_Almonds','Muesli_Raisins,_Peaches,_&_Pecans',Mueslix_Crispy_Blend,Multi-Grain_Cheerios,Nut&Honey_Crunch,Nutri-Grain_Almond-Raisin,Nutri-grain_Wheat,Oatmeal_Raisin_Crisp,Post_Nat._Raisin_Bran,Product_19,Puffed_Rice,Puffed_Wheat,Quaker_Oat_Squares,Quaker_Oatmeal,Raisin_Bran,Raisin_Nut_Bran,Raisin_Squares,Rice_Chex,Rice_Krispies,Shredded_Wheat,Shredded_Wheat_n_Bran,Shredded_Wheat_spoon_size,Smacks,Special_K,Strawberry_Fruit_Wheats,Total_Corn_Flakes,Total_Raisin_Bran,Total_Whole_Grain,Triples,Trix,Wheat_Chex,Wheaties,Wheaties_Honey_Gold}
+@attribute calories numeric
+@attribute protein(g) numeric
+@attribute fat(g) numeric
+@attribute sodium(mg) numeric
+@attribute 'dietary fiber(g)' numeric
+@attribute 'complex carbohydrates(g)' numeric
+@attribute sugars(g) numeric
+@attribute 'display shelf' numeric
+@attribute potassium(mg) numeric
+@attribute cluster {cluster1,cluster2,cluster3,cluster4,cluster5,cluster6,cluster7,cluster8,cluster9,cluster10,cluster11,cluster12,cluster13,cluster14,cluster15,cluster16}
+
+@data
+Apple_Jacks,110,2,0,125,1,11,14,2,30,cluster6
+Cap_n_Crunch,120,1,2,220,0,12,12,2,35,cluster6
+Cinnamon_Toast_Crunch,120,1,3,210,0,13,9,2,45,cluster6
+Cocoa_Puffs,110,1,1,180,0,12,13,2,55,cluster6
+Corn_Pops,110,1,0,90,1,13,12,2,20,cluster6
+Count_Chocula,110,1,1,180,0,12,13,2,65,cluster6
+Froot_Loops,110,2,1,125,1,11,13,2,30,cluster6
+Fruity_Pebbles,110,1,1,135,0,13,12,2,25,cluster6
+Golden_Grahams,110,1,1,280,0,15,9,2,45,cluster6
+Honey_Graham_Ohs,120,1,2,220,1,12,11,2,45,cluster6
+Lucky_Charms,110,2,1,180,0,12,12,2,55,cluster6
+Nut&Honey_Crunch,120,2,1,190,0,15,9,2,40,cluster6
+Raisin_Bran,120,3,1,210,5,14,12,2,240,cluster6
+Smacks,110,2,1,70,1,9,15,2,40,cluster6
+Trix,110,1,1,140,0,13,12,2,25,cluster6
